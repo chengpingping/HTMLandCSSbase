@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<title>01-常用标签</title>
+	</head>
+	<body>
+		<h1>标题标签</h1>
+		<p>段落标签</p>
+		12<br />34换行
+		<h4>下载文件</h4>
+		<a href="#">下载</a>
+		<h4>锚点</h4>
+		<a href="#a">跳转</a>
+		<table align="center" border="1px" cellpadding="0" cellspacing="0" width="500px">
+			<thead>
+			<tr>
+				<th>一</th>
+				<th>二</th>
+				<th>三</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			</tbody>
+		</table>
+		<table align="left" cellspacing="0" border="1px" width="500px" height="300px">
+			<thead>
+				<tr>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					<th>4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td colspan="3"></td>
+				</tr>
+				<tr>
+					<td rowspan="3"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />		
+		<br />
+		<br />
+		<br />
+		<ul>
+			<li>语文</li>
+			<li>英语</li>
+			<li>数学</li>
+		</ul>
+		<ol>
+			<li>语文</li>
+			<li>英语</li>
+			<li>数学</li>
+		</ol>
+		<dl>
+			<dt>关注我们</dt>
+			<dd>1</dd>
+			<dd>2</dd>
+			<dd>3</dd>
+		</dl>
+		<br />
+		<form action="demo.php" method="get" name="form1">
+			用户名：<input name="uname" value="请输入用户名" type="text" />
+			<br />
+			密码：<input name="pwd" type="password" />
+			<br />
+			性别：<input name="sex" type="radio" checked="checked" value="male" />male <input name="sex" value="female" type="radio" />female
+			<br />
+			爱好：<input name="hobby" value="吃饭" checked="checked" type="checkbox" />吃饭<input name="hobby" value="睡觉" type="checkbox" />睡觉<input name="hobby" value="玩" type="checkbox" />玩
+			<br />
+			<input type="file" />
+			<br />
+			<input type="submit" value="提交" />
+			<input type="reset" value="重置" />
+		</form>
+		<br />
+		<label for='name'>name</label>
+		<input type='text' id='name' />
+		<label for="male">male</label>
+		<label for="female">female</label>
+		<input type="radio" name="sex" id="male" />
+		<input type="radio" name="sex" id="female" />
+		<br />
+		<select>
+			<option selected="selected">beijing</option>
+			<option>chongqing</option>
+			<option>kunmig</option>
+			<option>shanghai</option>
+		</select>
+		<br />
+		反馈：<textarea cols="50" rows="10">
+			……
+		</textarea>
+		<br />
+		<p id="a">过来了</p>
+		div{$}*5
+	</body>
+</html>
